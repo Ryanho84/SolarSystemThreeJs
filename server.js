@@ -4,8 +4,8 @@ var http = require('http');
 var fs = require('fs');//引入文件读取模块
 
 
-var documentRoot = 'D:/workspace/js/solar/solarSystem';
-//需要访问的文件的存放目录
+var documentRoot = 'D:/workspace/js/solarSystem/app';
+//需要访问的文件的存放目录,可根据自己存放的目录修改
 
 var server= http.createServer(function(req,res){
 
